@@ -1,0 +1,53 @@
+/*BASIC STYLESHEET LAYOUT FOR THE RESPONSIVE SLIDESHOW PROGRAM*/
+
+/*Importing an External Font Service (Google Fonts) in order to  ensure
+  the correct and standardized Font Display in all computers, systems
+  and mobile devices
+*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;900&display=swap');
+
+/*Setting the page color and standardizing body text with the imported Font "Orbitron"*/
+
+body{
+
+	/*RGB proportions test (rgb(100,100,100,200) ->>> Mild Gray)*/
+
+	/*background-color: rgb(100,100,100,200);*/
+
+	/*TESTING LINEAR GRADIENTS, MIXED SHADES OF COLORS AND PROPORTIONS*/
+
+	  background: linear-gradient(to bottom, #3333ff 0%, #9933ff 100%) no-repeat;
+
+	  font-family: 'Orbitron', sans-serif;
+
+	  color: #fff;
+
+	  text-align: center;
+
+	  font-size: 64px;
+}
+
+#beans{
+
+	cursor: pointer;
+
+	/*
+	Here, for in-block visualization purposes, a thin border was used during the 
+	fluid layout development for the container (since all other ids and classes
+	are proportionally linked to it throughout text align: center, percentual width
+	and auto margins)
+
+	(border: 2px solid red;)
+*/
+
+}
+
+/*Applying img configuration "max-width: 100%" in order to make the image responsive 
+  to all sorts of device screens through auto-redimensioning
+ */
+
+img{
+
+	max-width: 100%;
+}
+
